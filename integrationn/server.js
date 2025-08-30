@@ -29,7 +29,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //See https://dialogflow.com/docs/reference/v2-auth-setup and
 // https://cloud.google.com/dialogflow/docs/setup for details.
 
-const projectId = 'healthchatbot-axbh';
+const projectId = 'healthchatbot-n9ou';
 const phoneNumber = "+1 659 336 5528";
 const accountSid = 'AC0d6ca7640da84a8a0aad1b9c8d264dc9';
 const authToken = '44b88a20ae09e5378892cd27b6cae4bb';
