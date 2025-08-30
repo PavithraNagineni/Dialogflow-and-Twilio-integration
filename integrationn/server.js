@@ -30,9 +30,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // https://cloud.google.com/dialogflow/docs/setup for details.
 
 const projectId = 'healthchatbot-axbh';
-const phoneNumber = "Place your twilio phone number here";
-const accountSid = 'Place your accountSid here';
-const authToken = 'Place your authToken here';
+const phoneNumber = "+1 659 336 5528";
+const accountSid = 'AC0d6ca7640da84a8a0aad1b9c8d264dc9';
+const authToken = '44b88a20ae09e5378892cd27b6cae4bb';
 
 const client = require('twilio')(accountSid, authToken);
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
